@@ -1,0 +1,65 @@
+1. 
+  Fausto Tommasi
+  Chris Lucas
+
+2. 
+
+-rw-r--r--. 1 ftommasi student  0 Nov  2 13:44 test.txt
+
+3. 0 bytes
+
+4. 
+
+0000000: 6173 6466 6861 736a 646b 6668 616a 7364  asdfhasjdkfhajsd
+0000010: 6b66 616a 7364 6866 6b61 736a 6468 666b  kfajsdhfkasjdhfk
+0000020: 6173 6a64 6866 616b 736a 6668 736a 616b  asjdhfaksjfhsjak
+0000030: 610a                                     a.
+
+5. No
+
+6. 0x0a is hex for a line feed that is not printed as a character on the screen
+
+7.
+cat test_exec | head -n1| xxd >> files.txt 
+
+0000000: 7f45 4c46 0201 0100 0000 0000 0000 0000  .ELF............
+0000010: 0200 3e00 0100 0000 d00a                 ..>.......
+
+
+8. 
+Hard coded library linking symbols
+
+0000550: 7900 6578 6974 0077 6169 7400 7069 7065  y.exit.wait.pipe
+0000560: 0070 6572 726f 7200 6765 745f 6375 7272  .perror.get_curr
+0000570: 656e 745f 6469 725f 6e61 6d65 0073 6967  ent_dir_name.sig
+0000580: 6e61 6c00 7075 7473 0066 6f72 6b00 7075  nal.puts.fork.pu
+0000590: 7463 6861 7200 7072 696e 7466 0073 7472  tchar.printf.str
+00005a0: 746f 6b00 7374 726c 656e 0063 6864 6972  tok.strlen.chdir
+00005b0: 0072 6561 6400 6475 7032 006d 616c 6c6f  .read.dup2.mallo
+00005c0: 6300 7374 7263 6174 0067 6574 656e 7600  c.strcat.getenv.
+00005d0: 6578 6563 7670 0063 6c6f 7365 0073 7472  execvp.close.str
+00005e0: 6368 7200 7374 7263 6d70 005f 5f6c 6962  chr.strcmp.__lib
+00005f0: 635f 7374 6172 745f 6d61 696e 0077 7269  c_start_main.wri
+0000600: 7465 005f 5f67 6d6f 6e5f 7374 6172 745f  te.__gmon_start_
+0000610: 5f00 474c 4942 435f 322e 322e 3500 0000  _.GLIBC_2.2.5...
+
+9.
+
+Type:                              EXEC (Executable file)
+
+This line describes that the file described has executable permissions
+
+Entry point address:               0x400ad0
+
+This line describes the entry point address for the program when it is executed
+
+10.
+
+[13] .text             PROGBITS         0000000000400ad0  00000ad0
+
+11.
+  9: 0000000000401398   544 FUNC    GLOBAL DEFAULT   13 main
+
+
+
+

@@ -1,0 +1,18 @@
+1. 
+  Fausto Tommasi
+  Chris Lucas
+
+2. 
+
+-rw-r--r--. 1 ftommasi student  0 Nov  2 13:44 test.txt
+
+3. 0 bytes
+
+4. 
+
+0000000: 6173 6466 6861 736a 646b 6668 616a 7364  asdfhasjdkfhajsd
+0000010: 6b66 616a 7364 6866 6b61 736a 6468 666b  kfajsdhfkasjdhfk
+0000020: 6173 6a64 6866 616b 736a 6668 736a 616b  asjdhfaksjfhsjak
+0000030: 610a                                     a.
+
+5.
